@@ -33,7 +33,16 @@ const nextConfig = {
         destination: 'https://rentals.wattevillegroup.ch/:path*',
       },
     ]
-  }
+  },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/cyberbeast',
+        permanent: true,
+      },
+    ];
+  },
 }
 
 module.exports = nextConfig

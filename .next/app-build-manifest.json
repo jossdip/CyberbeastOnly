@@ -34,6 +34,16 @@
       "static/css/7bc8c13a9320856a.css",
       "static/chunks/app/layout-cbd664858b0659ef.js"
     ],
+    "/cyberbeast/page": [
+      "static/chunks/webpack-fde69268f6611791.js",
+      "static/chunks/fd9d1056-052cc17bafbc75c7.js",
+      "static/chunks/938-9f05de3d3ea9f999.js",
+      "static/chunks/main-app-88ed82b05b37606d.js",
+      "static/chunks/176-d50a29b537d0bd3d.js",
+      "static/chunks/430-db496174035b7409.js",
+      "static/chunks/691-71f30a56aeb70140.js",
+      "static/chunks/app/cyberbeast/page-3e4b506e6d76082d.js"
+    ],
     "/page": [
       "static/chunks/webpack-fde69268f6611791.js",
       "static/chunks/fd9d1056-052cc17bafbc75c7.js",
@@ -50,16 +60,6 @@
       "static/chunks/430-db496174035b7409.js",
       "static/chunks/102-250ef726bbbf8c36.js",
       "static/chunks/app/cyberbeast/request-quote/page-3df2864062756cfb.js"
-    ],
-    "/cyberbeast/page": [
-      "static/chunks/webpack-fde69268f6611791.js",
-      "static/chunks/fd9d1056-052cc17bafbc75c7.js",
-      "static/chunks/938-9f05de3d3ea9f999.js",
-      "static/chunks/main-app-88ed82b05b37606d.js",
-      "static/chunks/176-d50a29b537d0bd3d.js",
-      "static/chunks/430-db496174035b7409.js",
-      "static/chunks/691-71f30a56aeb70140.js",
-      "static/chunks/app/cyberbeast/page-3e4b506e6d76082d.js"
     ]
   }
 }
