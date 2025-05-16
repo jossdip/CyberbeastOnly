@@ -58,10 +58,10 @@ export default function CyberbeastB2BPage() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.4, type: "spring", stiffness: 150 }}
           >
-            <Link href="/cyberbeast/request-quote">
-              <span className="inline-block bg-blue-600 text-white px-10 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-500/50">
+            <Link href="/cyberbeast/request-quote" legacyBehavior>
+              <a className="inline-block bg-blue-600 text-white px-10 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-500/50">
                 Request B2B Quote
-              </span>
+              </a>
             </Link>
           </motion.div>
         </div>
@@ -175,10 +175,10 @@ export default function CyberbeastB2BPage() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <Link href="/cyberbeast/request-quote">
-              <span className="bg-gradient-to-r from-blue-500 to-blue-700 text-white px-12 py-4 rounded-lg text-xl font-semibold hover:shadow-xl transition-all duration-300 shadow-lg focus:outline-none focus:ring-4 focus:ring-blue-500/70">
+            <Link href="/cyberbeast/request-quote" legacyBehavior>
+              <a className="bg-gradient-to-r from-blue-500 to-blue-700 text-white px-12 py-4 rounded-lg text-xl font-semibold hover:shadow-xl transition-all duration-300 shadow-lg focus:outline-none focus:ring-4 focus:ring-blue-500/70">
                 Get Your Custom B2B Quote Now
-              </span>
+              </a>
             </Link>
           </motion.div>
         </div>
