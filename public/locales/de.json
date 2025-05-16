@@ -1,4 +1,26 @@
 {
-  "greeting": "Hallo",
-  "farewell": "Auf Wiedersehen"
+  "nav": {
+    "home": "Startseite",
+    "book": "Buchen",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Erleben Sie die Zukunft des Fahrens",
+    "subtitle": "Mieten Sie einen Tesla Cybertruck in Europa",
+    "cta": "Jetzt buchen"
+  },
+  "booking": {
+    "title": "Buchen Sie Ihren Cybertruck",
+    "select_dates": "Daten auswählen",
+    "price": "Preis pro Tag",
+    "total": "Gesamt",
+    "continue": "Zur Zahlung"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "send": "Nachricht senden"
+  }
 } 

@@ -1,4 +1,26 @@
 {
-  "greeting": "Ciao",
-  "farewell": "Arrivederci"
+  "nav": {
+    "home": "Home",
+    "book": "Prenota",
+    "contact": "Contatti"
+  },
+  "hero": {
+    "title": "Vivi il Futuro della Guida",
+    "subtitle": "Noleggia un Tesla Cybertruck in Europa",
+    "cta": "Prenota"
+  },
+  "booking": {
+    "title": "Prenota il tuo Cybertruck",
+    "select_dates": "Seleziona le date",
+    "price": "Prezzo al giorno",
+    "total": "Totale",
+    "continue": "Procedi al pagamento"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "name": "Nome",
+    "email": "Email",
+    "message": "Messaggio",
+    "send": "Invia messaggio"
+  }
 } 

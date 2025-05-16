@@ -1,5 +1,5 @@
 {
   "/_not-found": "app/_not-found.js",
-  "/cyberbeast/request-quote/page": "app/cyberbeast/request-quote/page.js",
-  "/cyberbeast/page": "app/cyberbeast/page.js"
+  "/cyberbeast/page": "app/cyberbeast/page.js",
+  "/cyberbeast/request-quote/page": "app/cyberbeast/request-quote/page.js"
 }

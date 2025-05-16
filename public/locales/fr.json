@@ -1,4 +1,26 @@
 {
-  "greeting": "Bonjour",
-  "farewell": "Au revoir"
+  "nav": {
+    "home": "Accueil",
+    "book": "Réserver",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Vivez l'Expérience du Futur",
+    "subtitle": "Louez un Tesla Cybertruck en Europe",
+    "cta": "Réserver"
+  },
+  "booking": {
+    "title": "Réservez Votre Cybertruck",
+    "select_dates": "Sélectionnez les dates",
+    "price": "Prix par jour",
+    "total": "Total",
+    "continue": "Continuer vers le paiement"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer le message"
+  }
 } 

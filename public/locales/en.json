@@ -1,4 +1,26 @@
 {
-  "greeting": "Hello",
-  "farewell": "Goodbye"
+  "nav": {
+    "home": "Home",
+    "book": "Book Now",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Experience the Future of Driving",
+    "subtitle": "Rent a Tesla Cybertruck in Europe",
+    "cta": "Book Now"
+  },
+  "booking": {
+    "title": "Book Your Cybertruck",
+    "select_dates": "Select Dates",
+    "price": "Price per day",
+    "total": "Total",
+    "continue": "Continue to Payment"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message"
+  }
 } 

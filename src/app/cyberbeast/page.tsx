@@ -5,11 +5,6 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 
-// Gestion d'erreur image
-const handleImageError = (e: any) => {
-  e.target.src = 'https://images.unsplash.com/photo-1579547621706-1a9c79d5c9f1?q=80&w=2940&auto=format&fit=crop';
-};
-
 export default function CyberbeastB2BPage() {
   const cyberbeastDetails = {
     mainImage: "https://hips.hearstapps.com/hmg-prod/images/2024-tesla-cybertruck-107-65e8945c693e2.jpg?crop=1xw:1xh;center,top&resize=980:*", // Cybertruck image
@@ -33,9 +28,8 @@ export default function CyberbeastB2BPage() {
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
-        aria-label="Tesla Cyberbeast Hero Section"
       >
-        <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" aria-hidden="true" />
+        <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
         <div className="relative z-10 max-w-4xl mx-auto px-4">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -79,7 +73,7 @@ export default function CyberbeastB2BPage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7, ease: "easeOut" }}
-              className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-2xl min-h-[250px]"
+              className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-2xl"
             >
               <Image
                 src={cyberbeastDetails.mainImage}
@@ -87,8 +81,6 @@ export default function CyberbeastB2BPage() {
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
-                onError={handleImageError}
-                priority
               />
             </motion.div>
             <motion.ul 
@@ -100,7 +92,7 @@ export default function CyberbeastB2BPage() {
             >
               {cyberbeastDetails.b2bAdvantages.map((feature, i) => (
                 <li key={i} className="flex items-start p-3 bg-gray-700/50 rounded-lg hover:bg-gray-700 transition-colors">
-                  <svg className="flex-shrink-0 h-7 w-7 text-blue-500 mr-4 mt-1" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <svg className="flex-shrink-0 h-7 w-7 text-blue-500 mr-4 mt-1" viewBox="0 0 24 24" fill="currentColor">
                     <path fillRule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clipRule="evenodd" />
                   </svg>
                   <span>{feature}</span>
@@ -150,8 +142,6 @@ export default function CyberbeastB2BPage() {
                     fill
                     className="object-cover"
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    onError={handleImageError}
-                    priority={i === 0}
                   />
                 </div>
                 <h3 className="text-xl font-semibold mb-3 text-white">{feature.title}</h3>
